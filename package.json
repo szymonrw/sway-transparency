@@ -1,0 +1,19 @@
+{
+  "name": "sway-transparency",
+  "version": "0.1.0",
+  "description": "Manage Sway's transparency",
+  "main": "index.js",
+  "keywords": [
+    "sway",
+    "wayland",
+    "transparency"
+  ],
+  "author": "Szymon Witamborski <simon@brainshave.com>",
+  "license": "MIT",
+  "dependencies": {
+    "i3": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
