@@ -8,7 +8,7 @@ let prev = null;
 
 i3.on('window', (event) => {
   if(watchedWindowEvens.has(event.change)) {
-    i3.command(`[con_id=${prev}] opacity 0.95`);
+    i3.command(`[con_id=${prev}] opacity 0.90`);
     i3.command('opacity 1');
     prev = event.container.id;
   }
